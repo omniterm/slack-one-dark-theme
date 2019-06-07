@@ -1577,7 +1577,7 @@ ts-mention.ts_tip {
 .internal_member_link.ts_tip:hover,
 .internal_user_group_link.ts_tip:hover,
 ts-mention.ts_tip:hover {
-  color: var(--text-bright) !important;
+  color: #00CC00 !important;
   border: 1px solid var(--border-bright); }
 
 .inline_message_input_container .ql-container.focus,
