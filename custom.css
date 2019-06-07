@@ -1771,5 +1771,9 @@ feature_archive_deeplink feature_texty winssb light_theme {
 /* Custom Elements */
 
 /* @ Mentions */
-member_slug--mention, member_slug--mention:hover, .c-member_slug--mention, .c-member_slug--mention:hover {
-	background: #004000; }
+member_slug--mention, .c-member_slug--mention:hover {
+		background: #004000;
+	  }
+	member_slug--mention, .c-member_slug--mention {
+		background: #004000;
+	  }
