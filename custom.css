@@ -1566,7 +1566,7 @@ span.match {
 .internal_member_link.ts_tip,
 .internal_user_group_link.ts_tip,
 ts-mention.ts_tip {
-  color: var(--text-bright);
+  color: #00CC00;
   background: var(--background-elevated);
   border: 1px solid var(--border-dim);
   padding: 2px 4px;
