@@ -1769,5 +1769,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
 /*# sourceMappingURL=custom.css.map */
 
 /* Custom Elements */
-channel_sidebar__quickswitcher {
-	color: #008000; }
+
+/* @ Mentions */
+.c-member_slug--mention, .c-member_slug--mention:hover {
+	color: #004000; }
+
