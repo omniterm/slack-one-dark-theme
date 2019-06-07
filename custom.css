@@ -14,7 +14,7 @@
   --border-bright: var(--primary);
   --text-bright: #00FF00;
   --text-dim: #555c69;
-  --text-special: var(--primary);
+  --text-special: #00DD00;
   --text-accent: var(--text-bright);
   --scrollbar-background: #000;
   --scrollbar-border: var(--primary);
