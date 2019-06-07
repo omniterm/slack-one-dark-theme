@@ -2,7 +2,7 @@
 :root {
   /* Modify these to change your theme colors: */
   --primary: #09F;
-  --text: #008000;
+  --text: #00CC00;
   --background: #080808;
   --background-elevated: #222;
   --accent: #568AF2;
@@ -12,7 +12,7 @@
   --background-bright: #FFF;
   --border-dim: #666;
   --border-bright: var(--primary);
-  --text-bright: #FFF;
+  --text-bright: #00FF00;
   --text-dim: #555c69;
   --text-special: var(--primary);
   --text-accent: var(--text-bright);
@@ -24,7 +24,7 @@
   --blue: #61AFEF;
   --purple: #C678DD;
   --red: #E06C75;
-  --red2: #00CC00;
+  --red2: #008000;
   --orange: #D19A66;
   --orange2: #E5707B;
   --gray: #3E4451;
