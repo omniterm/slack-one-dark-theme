@@ -1,3 +1,9 @@
+This was forked from https://github.com/mallowigi/slack-one-dark-theme in an attempt to get slack to recognize other URLS. 
+For some reason changing  const csspath to point to a different file or URL causes the theme not to load. 
+This is a work in progress, USE AT YOUR OWN RISK!!!
+
+
+
 # One Dark Theme for Slack
 
 Atom One Dark Theme for Slack!
@@ -28,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://raw.githubusercontent.com/mallowigi/slack-one-dark-theme/master/custom.css';
+   const cssPath = 'https://raw.githubusercontent.com/omniterm/slack-one-dark-theme/master/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
