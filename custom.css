@@ -1774,3 +1774,5 @@ feature_archive_deeplink feature_texty winssb light_theme {
 .c-member_slug--mention, .c-member_slug--mention:hover {
 	color: #004000; }
 
+.app_preview_link_slug.ts_tip, .internal_member_link.ts_tip, .internal_user_group_link.ts_tip, ts-mention.ts_tip .app_preview_link_slug.ts_tip:hover, .internal_member_link.ts_tip:hover, .internal_user_group_link.ts_tip:hover, ts-mention.ts_tip:hover .ts_tip_float.btn_msg_action:not(:last-child) ts_tip_float.btn_msg_action:hover .file_preview_action.btn.ts_tip, .file_preview_link.btn.file_comment_link .file_preview_action.btn.ts_tip:hover, .file_preview_link.btn.file_comment_link:hover (
+		color: #004000; }
