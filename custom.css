@@ -1773,7 +1773,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
 /* @ Mentions */
 member_slug--mention, .c-member_slug--mention:hover {
 		background: #004000;
-	  }
-	member_slug--mention, .c-member_slug--mention {
+		color: #00CC00; }
+member_slug--mention, .c-member_slug--mention {
 		background: #004000;
-	  }
+	  	color: #00CC00; }
