@@ -1781,7 +1781,9 @@ a, a:link, a:visited {
 	color: #00CC00; }
 member_slug--mention, .c-member_slug--link {
 	background: #004000; }
-	
+member_slug--mention, .c-member_slug--link:hover {
+	background: #004000; }
+
 /* Popup Text */
 ts_tip_tip:hover {
 	color: 00CC00; }
