@@ -1779,3 +1779,7 @@ member_slug--mention, .c-member_slug--mention {
   	color: #00CC00; }
 a, a:link, a:visited {
 	color: #00CC00; }
+
+/* Popup Text */
+ts_tip_tip:hover {
+	color: 00CC00; }
