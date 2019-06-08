@@ -1786,15 +1786,6 @@ member_slug--mention, .c-member_slug--link:hover {
 
 /* Popup Text */
 .ts_tip {
-	color: 00CC00; }
-.ts_tip:not(.ts_tip_hidden).ts_tip_delay_0:hover .ts_tip_tip,.ts_tip:not(.ts_tip_hidden).ts_tip_delay_none:hover .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:0s;-moz-transition-delay:0s;transition-delay:0s}
-.ts_tip:not(.ts_tip_hidden).ts_tip_delay_150:hover .ts_tip_tip,.ts_tip:not(.ts_tip_hidden):hover .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:150ms;-moz-transition-delay:150ms;transition-delay:150ms}
-.ts_tip:not(.ts_tip_hidden).ts_tip_delay_300:hover .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:.3s;-moz-transition-delay:.3s;transition-delay:.3s}
-.ts_tip:not(.ts_tip_hidden).ts_tip_delay_600:hover .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:.6s;-moz-transition-delay:.6s;transition-delay:.6s}
-.ts_tip:not(.ts_tip_hidden).ts_tip_delay_1000:hover .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition:opacity 270ms linear 1s;-moz-transition:opacity 270ms linear 1s;transition:opacity 270ms linear 1s}
-.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_0 .ts_tip_tip,.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_none .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:0s;-moz-transition-delay:0s;transition-delay:0s}
-.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden) .ts_tip_tip,.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_150 .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:150ms;-moz-transition-delay:150ms;transition-delay:150ms}
-.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_300 .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:.3s;-moz-transition-delay:.3s;transition-delay:.3s}
-.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_600 .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition-delay:.6s;-moz-transition-delay:.6s;transition-delay:.6s}
-.ts_tip#ts_tip_float_floater.ts_tip:not(.ts_tip_hidden).ts_tip_delay_1000 .ts_tip_tip{color:00CC00;opacity:1;-webkit-transition:opacity 270ms linear 1s;-moz-transition:opacity 270ms linear 1s;transition:opacity 270ms linear 1s}
-.ts_tip#ts_tip_float_floater{color:00CC00;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;z-index:1000000;position:absolute;top:0;left:0}
+	color: #00CC00; }
+.action_hover_container {
+  color: #00CC00 !important; }
