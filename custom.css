@@ -1785,5 +1785,5 @@ member_slug--mention, .c-member_slug--link:hover {
 	background: #004000; }
 
 /* Popup Text */
-ts_tip_tip:hover {
+.ts_tip .ts_tip_tip {
 	color: 00CC00; }
