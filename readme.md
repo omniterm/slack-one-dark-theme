@@ -14,6 +14,7 @@ Atom One Dark Theme for Slack!
 
 # Installing into Slack - This was tested on Slack 3.4.2
 
+I am making changes to the custom.css file and may prevent the themes below from working. If you don't like the layout of my theme you can replace the url: and use https://raw.githubusercontent.com/mallowigi/slack-one-dark-theme/master/custom.css
 Find your Slack's application directory.
 
 * Windows: `%homepath%\AppData\Local\slack\`
