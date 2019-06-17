@@ -110,6 +110,7 @@ If that doesn't work you can try one of the following.
 
 Alternative 1 - Note this one does not include local CSS options in the file. You will need to point the URL to your own .css file if you want to edit the theme using this Method.
 
+```js
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/omniterm/slack-one-dark-theme/master/custom.css',
@@ -118,10 +119,12 @@ document.addEventListener('DOMContentLoaded', function() {
    }
  });
 });
+```
 
 
 Alternative 2 - The below code is for windows (Tested in win7 and win10). If you would like to use it in Linux you will need to change modify the code. I will add the Linux version When it's been tested and verified to work. This code is used to load a custom.css file from your computer without needing to run a web server. you will need to replace the filePath with the location of your custom.css. When specifying the file location you will need to use / so replace all \ with /  ex. 'C:\slack\theme\custom.css'  would become 'C:/slack/theme/custom.css'
 
+```js
 document.addEventListener('DOMContentLoaded', function() {
   var fs = require('fs'),
   filePath = 'C:/Users/dphelps/AppData/Local/slack/app-3.4.2/resources/app.asar.unpacked/src/static/theme/custom.css';
@@ -133,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   })
 });
+```
 
 
 Notice that you can edit any of the theme colors using the custom CSS (for
