@@ -14,6 +14,10 @@ Atom One Dark Theme for Slack!
 
 # Installing into Slack - This was tested on Slack 3.4.2
 
+Note: Slack 4.1.0 beta3 does not include the "ssb-interop.js" file that needs to be modified. To get a custom theme working you will need to unpack the app.asar file located "%localappdata%\slack\app-4.1.0-beta3\resources\" After unpacking you will need to depete app.asar(not recommended) or rename/move the file. Once complete you will need to modify the file "%localappdata%\slack\app-4.1.0-beta3\resources\app\dist\ssb-interop.bundle.js" using one of the methods below. I used Alternative 2 method in windows 10 and got it working. using a local CSS file.
+
+Alot has changed in this beta and any existing themes will need to be updated. With this beta you can theme the sidebar used for switching slack workspaces for those signed into more than 1 workspace.
+
 I am making changes to the custom.css file and may prevent the themes below from working. If you don't like the layout of my theme you can replace the url: and use https://raw.githubusercontent.com/mallowigi/slack-one-dark-theme/master/custom.css
 Find your Slack's application directory.
 
